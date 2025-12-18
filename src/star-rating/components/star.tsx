@@ -1,8 +1,7 @@
-import { FaStar } from "react-icons/fa";
-import { CiStar } from "react-icons/ci";
+import { StarFill, StarHalf } from "react-bootstrap-icons";
 
 const Star = ({ filled }: { filled: boolean }) => {
-  return <div> {filled ? <FaStar /> : <CiStar />}</div>;
+  return <div> {filled ? <StarFill /> : <StarHalf />}</div>;
 };
 
 export default Star;

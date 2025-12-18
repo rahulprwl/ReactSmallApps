@@ -1,9 +1,8 @@
-import React, { Component, useState } from "react";
+import { useState } from "react";
 import { Col, Container, Row } from "react-bootstrap";
 import Keypad from "./components/keypad";
 import Symbols from "./components/Symbols";
 import DisplayArea from "./components/displayArea";
-import { on } from "events";
 
 export default function CalculatorMainPage() {
   const [display, setDisplay] = useState("");
